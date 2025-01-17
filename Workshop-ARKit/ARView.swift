@@ -8,7 +8,7 @@
 import SwiftUI
 import RealityKit
 
-struct ContentView : View {
+struct ARView : View {
 
     var body: some View {
         RealityView { content in
@@ -36,5 +36,5 @@ struct ContentView : View {
 }
 
 #Preview {
-    ContentView()
+    ARView()
 }
